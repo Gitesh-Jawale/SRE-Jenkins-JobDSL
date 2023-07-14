@@ -1,4 +1,4 @@
-pipelineJob('PipelineJob-A2') {
+pipelineJob('Project-A/A2/PipelineJob-A2') {
     definition {
         cpsScm {
             scm {
