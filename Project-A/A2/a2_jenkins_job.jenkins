@@ -1,1 +1,17 @@
+pipelineJob('PipelineJob-A2') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        url('https://github.com/Gitesh-Jawale/DPipeline.git')
+                    }
+                    branch('main')
+                }
+                scriptPath('pipeline.jenkinsfile')
+            }
+        }
+    }
+}
+
 
